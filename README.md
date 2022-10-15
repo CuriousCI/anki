@@ -1,38 +1,14 @@
-# create-svelte
+# Anki _(as a PWA)_
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+With this project, I aim to build a PWA, so to **empower everyone** to _study_ and _learn_ on **every device!**
 
-## Creating a project
+## Why tho?
 
-If you're seeing this, you've probably already done this step. Congrats!
+To be honest, I don't like anki's UI that much _(so I'm going to take matters in my own hands)_. Plus, the 20$ pricetag on iOS shouldn't stop people who bought the wrong phone 😉!
+It would also ensure the same _user experience_ on every device!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Which tools and why am I using them
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+I'm going to build a **static web page** _(cos it's free to host on **GitHub** pages, inside the docs folder)_ which will use Anki's API 😊
+I'll write the code in **Svelte** _(get the best results with the least effort)_ as in it's super easy to setup a static website + **TypeScript** cos I really like type safety and clean code 🧹!
+I guess I'll stick to **tailwindcss** as it's always proven to be quick and super useful in every situation! _(and some CSS here and there)_
